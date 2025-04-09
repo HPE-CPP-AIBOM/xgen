@@ -1,0 +1,46 @@
+{
+  "Model Name": "XGen",
+  "Type": "Causal Language Model",
+  "Model Version": "7B",
+  "Developer Name": "Salesforce",
+  "License Information": "Apache 2.0 License",
+
+  "Model Architecture": {
+    "ML Model": "Transformer",
+    "Algorithm": "Causal Language Modeling",
+    "Model Parameters": {
+      "Architecture": "Transformer Decoder",
+      "Number of Layers": "32",
+      "Number of Attention Heads": "32",
+      "Hidden Layer Size": "4096",
+      "Number of Parameters": "7 Billion",
+      "Vocabulary Size": "32000"
+    }
+  },
+
+  "Input": "Text",
+  "Input Format": {
+    "Type": "Plain text",
+    "Encoding": "UTF-8",
+    "Example": "Input prompt..."
+  },
+
+  "Output": "Text",
+  "Output Format": {
+    "Type": "Plain text",
+    "Encoding": "UTF-8",
+    "Description": "Generated text sequence"
+  },
+
+  "Usage Scenarios": [
+    "Text generation",
+    "Code generation",
+    "Question answering",
+    "Text summarization"
+  ],
+
+  "Limitations": [
+    "Potential biases present in training data",
+    "May generate factually incorrect or nonsensical content"
+  ]
+}

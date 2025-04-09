@@ -1,0 +1,72 @@
+{
+  "dataset_name": "xGen-MM Training Data (Simulated)",
+  "description": "A simulated, small subset of data representing the image-text pairs and image captions used to train the xGen-MM model.  This is NOT the actual training data, but an example of the data format.",
+  "data_format": "Image URL and Text Caption/Query",
+  "data": [
+    {
+      "image_url": "https://example.com/image1.jpg",
+      "text": "A cat sitting on a windowsill."
+    },
+    {
+      "image_url": "https://example.com/image2.png",
+      "text": "What color is the car in the image?"
+    },
+    {
+      "image_url": "https://example.com/image3.jpeg",
+      "text": "A group of people walking down a busy street."
+    },
+    {
+      "image_url": "https://example.com/image4.gif",
+      "text": "Describe the activity shown in this image."
+    },
+    {
+      "image_url": "https://example.com/image5.bmp",
+      "text": "Close-up of a flower with water droplets."
+    },
+    {
+      "image_url": "https://example.com/image6.tiff",
+      "text": "Identify the landmarks in the photo."
+    },
+    {
+      "image_url": "https://example.com/image7.ico",
+      "text": "Is this image a painting or a photograph?"
+    },
+    {
+      "image_url": "https://example.com/image8.svg",
+      "text": "A scenic view of mountains and a lake."
+    },
+    {
+      "image_url": "https://example.com/image9.webp",
+      "text": "What type of animal is depicted in the picture?"
+    },
+    {
+      "image_url": "https://example.com/image10.avif",
+      "text": "Determine if this is an indoor or outdoor scene."
+    },
+    {
+      "image_url": "https://example.com/image11.jpg",
+      "text": "Describe this image."
+    },
+      {
+      "image_url": "https://example.com/image12.png",
+      "text": "What are the objects in this picture?"
+    }
+    ,
+    {
+      "image_url": "https://example.com/image13.jpeg",
+      "text": "Summarize what is shown in the photo."
+    }
+     ,
+    {
+      "image_url": "https://example.com/image14.gif",
+      "text": "Is it raining in the picture?"
+    }
+     ,
+    {
+      "image_url": "https://example.com/image15.bmp",
+      "text": "How many cars are in the image?"
+    }
+
+    // ... More simulated image-text pairs ...
+  ]
+}
